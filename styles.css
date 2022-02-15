@@ -1,0 +1,24 @@
+body {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: gold;
+}
+
+.friend {
+    background-color: indianred;
+
+}
+
+
+.friend,
+h3 {
+    font-variant-caps: small-caps;
+    color: khaki;
+}
+
+p {
+    color: darkolivegreen;
+    font-weight: bold;
+}
