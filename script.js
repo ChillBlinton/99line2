@@ -1,6 +1,6 @@
 let Sing = document.getElementById("button");
-Sing.addEventListener("click", function () {}
-
+Sing.addEventListener("click", function () {
+    
 let friends = [
     "Chungus",
     "Amongus",
@@ -8,9 +8,6 @@ let friends = [
     "bruhngus",
     "Jeb"
 ];
-
-
-
 
 function lineyLine(friends) {
     let counter = 99;                       
@@ -28,9 +25,13 @@ function lineyLine(friends) {
 
 for (let i = 0; i < friends.length; i++) {
     const element = friends[i];
+    let h3 = document.createElement("h3");
+    let h3Text = docmuent.createTextNode($friends[i]);
+    h3.appendChild(h3Text);
+    document.body.appendChild(h3);
     lineyLine(friends[i])
     for (let d = 0; d < i.length; d++) {
         const element = i[d];
         
     }
-});
+}});
