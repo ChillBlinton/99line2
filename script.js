@@ -1,10 +1,16 @@
+let Sing = document.getElementById("button");
+Sing.addEventListener("click", function () {}
+
 let friends = [
     "Chungus",
     "Amongus",
     "Fungus",
     "bruhngus",
     "Jeb"
-]
+];
+
+
+
 
 function lineyLine(friends) {
     let counter = 99;                       
@@ -27,4 +33,4 @@ for (let i = 0; i < friends.length; i++) {
         const element = i[d];
         
     }
-}
+});
