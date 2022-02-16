@@ -26,7 +26,7 @@ function lineyLine(friends) {
 for (let i = 0; i < friends.length; i++) {
     const element = friends[i];
     let h3 = document.createElement("h3");
-    let h3Text = docmuent.createTextNode($friends[i]);
+    let h3Text = docmuent.createTextNode({friends:[i]} );
     h3.appendChild(h3Text);
     document.body.appendChild(h3);
     lineyLine(friends[i])
